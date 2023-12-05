@@ -20,8 +20,8 @@
     "update": "isaacscript update"
   },
   "dependencies": {
-    "isaac-typescript-definitions": "^40.0.0",
-    "isaacscript-common": "^83.1.0"
+    "isaac-typescript-definitions": "^40.0.1",
+    "isaacscript-common": "^83.3.0"
   },
   "devDependencies": {
     "isaacscript": "^3.29.0",
