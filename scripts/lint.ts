@@ -25,6 +25,13 @@ await lintScript(async () => {
 
     // Check for unused CSpell words.
     $`npx cspell-check-unused-words`,
+
+    // @template-customization-start
+
+    // Check for template file updates.
+    $`isaacscript check`,
+
+    // @template-customization-end
   );
 
   if (commandExists("python")) {
